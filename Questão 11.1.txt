@@ -1,0 +1,7 @@
+Multiplicando o primeiro vezes o segundo número a função vai realizar as seguintes operações.
+4*7 = 28
+5*6 = 30
+3*3 = 9
+
+Porém a chamada da função está errada, levando em conta que o nome
+da function é "multiplicacao" e não "multiplica"

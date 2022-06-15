@@ -1,0 +1,12 @@
+Depois de criar uma lista ordenada em HTML utilizando as tags ul e li
+através do seguinte código em css alinhamos apenas os itens (li) da lista
+
+ul li{
+	text-align: vertically;
+}
+
+Ou podemos formatar toda a lista
+
+ul {
+	text-align: vertically;
+}

@@ -1,0 +1,2 @@
+A resposta certa é a letra (c) green pois utiliza 
+um seletor de id que é mais especifico e sobrepõe os outros estilos

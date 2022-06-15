@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tutorial de Alert em JavaScript - Linha de Código</title>
+</head>
+<body>
+
+<p>Clique abaixo para exibir o alerta </p>
+
+<button onclick="funcao()">Clique aqui</button>
+
+<p id="teste"></p>
+
+<script>
+function funcao()
+{
+var x;
+var r=confirm("Selecione uma opção!");
+if (r==true)
+  {
+  x="Você clicou em OK ;)";
+  }
+else
+  {
+  x="Poxa você Cancelou :(";
+  }
+document.getElementById("teste").innerHTML=x;
+}
+</script>
+
+</body>
+</html>

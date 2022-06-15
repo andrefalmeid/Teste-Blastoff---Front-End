@@ -1,0 +1,4 @@
+Basta utilizar as seguintes linhas 
+
+let x = "Hello World"
+console.log(x)

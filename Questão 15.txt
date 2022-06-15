@@ -1,0 +1,55 @@
+HTML
+<div class="container">
+  <div class="box-1">A</div>
+  <div class="box-2">B</div>
+  <div class="box-3">C</div>
+  <div class="box-4">D</div>
+  <div class="box-5">E</div>
+</div>
+
+CSS
+Para telas grandes
+.container{
+  display: grid;
+  height: 100vh;
+  grid-template-areas: 
+    "a a a a    a a a a    a a a a"
+
+    "b b b b    b b b b    e e e e"
+    "b b b b    b b b b    e e e e"
+
+    "c c c c    d d d d    e e e e";
+
+  grid-gap: 20px;
+}
+
+.box-1{
+  grid-area: a;
+}
+.box-2{
+  grid-area: b;
+}
+.box-3{
+  grid-area: c;
+}
+.box-4{
+  grid-area: d;
+}
+.box-5{
+  grid-area: e;
+}
+
+CSS para telas pequenas
+@include query(mobile){
+  .container{
+      grid-template-areas: 
+
+    "a a a a    a a a a    a a a a"
+
+    "b b b b    b b b b    b b b b"
+    "b b b b    b b b b    b b b b"
+
+    "c c c c    c c d d    d d d d"
+    "e e e e    e e e e    e e e e";
+  }
+}

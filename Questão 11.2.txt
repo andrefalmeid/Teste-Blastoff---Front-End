@@ -1,0 +1,6 @@
+A resposta é a (c)!important
+porém apesar de ser uma tag disponível para uso não é recomendado utilizar ela
+pois faz com que uma configuração de elemento receba uma prioridade muito alta, 
+sendo impossivel sobrescrever esse estilo, assim numa futura manutenção pode ser preciso
+mudar esse elemento e talvez a única forma de fazer isso seria utilizando novamente a
+tag !important fazendo assim um ciclo sem fim.
